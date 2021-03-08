@@ -152,6 +152,17 @@ android_app_import {
 }
 
 android_app_import {
+    name: "OnePlusCameraService",
+    owner: "oneplus",
+    apk: "system/priv-app/OnePlusCameraService/OnePlusCameraService.apk",
+    certificate: "platform",
+    dex_preopt: {
+        enabled: false,
+    },
+    privileged: true,
+}
+
+android_app_import {
     name: "pasrservice",
     owner: "oneplus",
     apk: "vendor/app/pasrservice/pasrservice.apk",
